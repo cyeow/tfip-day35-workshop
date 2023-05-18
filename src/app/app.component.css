@@ -1,0 +1,9 @@
+.center-it {
+    justify-content: center;
+    align-content: center;
+}
+.container {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: auto;
+}
