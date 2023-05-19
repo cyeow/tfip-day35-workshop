@@ -10,7 +10,7 @@ export class GamesService {
     http = inject(HttpClient);
 
     // endpoints
-    BOARDGAMES_ENDPOINT = 'http://localhost:8080/games';
+    BOARDGAMES_ENDPOINT = 'https://gameapi.legendory.com/games';
 
     getGames(pageNumber: number, limit: number): Observable<Game[]> {
         let offset = pageNumber * limit;
